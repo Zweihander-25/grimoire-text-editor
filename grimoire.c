@@ -17,10 +17,8 @@
 #include <time.h>
 
 /*** defines ***/
-
-#define THE_GRIMOIRE_VER "0.0.1" 
+#define THE_GRIMOIRE_VER "0.0.2" 
 #define THE_GRIMOIRE_TAB_STOP 8
-
 #define CTRL_KEY(k) ((k) & 0x1f) // Macro to get the control key equivalent of a character
 
 enum editorKey {
